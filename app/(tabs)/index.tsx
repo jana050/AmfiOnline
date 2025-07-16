@@ -1,4 +1,4 @@
-import { StyleSheet } from 'react-native';
+import { StyleSheet, View } from 'react-native';
 
 import LoginScreen from './login';
 
@@ -48,9 +48,9 @@ export default function HomeScreen() {
     //     </ThemedText>
     //   </ThemedView>
     // </ParallaxScrollView>
-    <>
+    <View>
     <LoginScreen/>
-    </>
+    </View>
   );
 }
 
