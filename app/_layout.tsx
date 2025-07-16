@@ -14,7 +14,7 @@ export default function RootLayout() {
 
   if (!loaded) {
     // Async font loading only occurs in development.
-    console.log("")
+    console.log()
     return null;
   }
 
